@@ -9,7 +9,7 @@ CaaS (container as a service) stack in Node.js style
 ### management service:
 - multi-tanent: enviroment, project concept
 - monophonic service node: computer/network/storage virtualisation, image service, etc
-- load balancing: proxy like hipache, cluster like cassandra/stack
+- load balancing: proxy, cluster
 - HA, no SPF
 - REST API
 - CLI
@@ -31,6 +31,8 @@ CaaS (container as a service) stack in Node.js style
 - load balancing
 - multipath 
 - HA, no SFP
+- REST API
+- CLI
 - QoS
 - service discovering
 - Loging
@@ -42,6 +44,9 @@ CaaS (container as a service) stack in Node.js style
 - resource monitoring
 - resource metric
 - live upgrade
+- HA, no SFP
+- REST API
+- CLI
 - QoS
 - Loging
 - etc
@@ -52,6 +57,9 @@ CaaS (container as a service) stack in Node.js style
 - object/block store, fs
 - hot plugin-out
 - live upgrade
+- HA, no SFP
+- REST API
+- CLI
 - QoS
 - Loging
 - etc

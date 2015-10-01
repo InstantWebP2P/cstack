@@ -3,9 +3,12 @@ CaaS (container as a service) stack in Node.js style
 
 ## Features
 
-### management node:
+
+## Components
+
+### management service:
 - multi-tanent: enviroment, project concept
-- monophonic service node
+- monophonic service node: computer/network/storage virtualisation, image service, etc
 - load balancing: proxy like hipache, cluster like cassandra/stack
 - HA, no SPF
 - REST API
@@ -13,16 +16,18 @@ CaaS (container as a service) stack in Node.js style
 - dashboard, UI
 - middle-ware vs micro-service architecture 
 - -
-- as Resource scheduler/arbiter
-- as QoS policer
-- as Log collector
+- Resource scheduler/arbiter
+- QoS policy
+- Log collect
+- DevOps
 - etc
 
 ### networking agent: 
+- support only virtual switch
 - flat l2
 - dhcp/dns services
 - l3 routing
-- nat
+- nat,firewall, vpn
 - load balancing
 - multipath 
 - HA, no SFP
@@ -32,7 +37,7 @@ CaaS (container as a service) stack in Node.js style
 - etc
 
 ### computing agent: 
-- lxc/lxd, docker, rkt, even vm and physical host
+- support lxc/lxd, docker, rkt, even vm and physical host
 - live migration
 - resource monitoring
 - resource metric
@@ -43,9 +48,19 @@ CaaS (container as a service) stack in Node.js style
 
 ### storage agent:
 - support local fs, nfs, glusterFs, cephFs, even iSCSI, FC
+- upload/download file
+- object/block store, fs
 - hot plugin-out
 - live upgrade
 - QoS
 - Loging
 - etc
+
+
+### License
+
+(see LICENSE file)
+
+Copyright (c) 2015 Tom Zhou(iwebpp@gmail.com)
+
 

@@ -57,6 +57,7 @@ CaaS (container as a service) stack in Node.js style
 - object/block store, fs
 - hot plugin-out
 - live upgrade
+- snapshot
 - HA, no SFP
 - REST API
 - CLI

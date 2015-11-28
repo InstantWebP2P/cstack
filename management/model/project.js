@@ -30,9 +30,7 @@ createTableCQLstr :'CREATE TABLE IF NOT EXISTS '+modelName+' ( ' +
                  ' env_id        timeuuid, '  + // which an project belong to
 
                  ' containers    set<timeuuid>, '  +
-                 ' storages set<timeuuid>, '  +
-                 ' networks set<timeuuid>, '  +
-
+                 
                  ' create_time  timestamp, '  +
                  ' update_time  timestamp, '  +
                  ' status       int, '        + //status of the code 1-valid 2-invalid

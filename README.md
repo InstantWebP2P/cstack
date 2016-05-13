@@ -15,7 +15,7 @@ CaaS (container as a service) stack in Node.js style
 - CLI
 - dashboard, UI
 - middle-ware vs micro-service architecture 
-- -
+- live upgrade
 - Resource scheduler/arbiter
 - QoS policy
 - Log collect

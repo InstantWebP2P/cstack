@@ -27,9 +27,12 @@ CaaS (container as a service) stack in Node.js style
 - flat l2
 - dhcp/dns services
 - l3 routing
+- IPv6
+- DPDK
 - nat,firewall, vpn
 - load balancing
-- multipath 
+- multipath
+- live upgrade
 - HA, no SFP
 - REST API
 - CLI
@@ -56,6 +59,7 @@ CaaS (container as a service) stack in Node.js style
 - upload/download file
 - object/block store, fs
 - hot plugin-out
+- NVMe/SPDK
 - live upgrade
 - snapshot
 - HA, no SFP

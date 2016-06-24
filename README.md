@@ -33,7 +33,7 @@ CaaS (container as a service) stack in Node.js style
 - load balancing
 - multipath
 - live upgrade
-- HA, no SFP
+- HA, no SPF
 - REST API
 - CLI
 - QoS
@@ -47,7 +47,7 @@ CaaS (container as a service) stack in Node.js style
 - resource monitoring
 - resource metric
 - live upgrade
-- HA, no SFP
+- HA, no SPF
 - REST API
 - CLI
 - QoS
@@ -62,7 +62,7 @@ CaaS (container as a service) stack in Node.js style
 - NVMe/SPDK
 - live upgrade
 - snapshot
-- HA, no SFP
+- HA, no SPF
 - REST API
 - CLI
 - QoS

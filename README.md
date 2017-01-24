@@ -42,7 +42,7 @@ CaaS (container as a service) stack in Node.js style
 - etc
 
 ### computing agent: 
-- support lxc/lxd, docker, rkt, even vm and physical host
+- support lxc/lxd, docker/rkt/runc,kvm/physical host,even windows container
 - live migration
 - resource monitoring
 - resource metric

@@ -60,6 +60,7 @@ CaaS (container as a service) stack in Node.js style
 - object/block store, fs
 - hot plugin-out
 - NVMe/SPDK
+- resource metric
 - live upgrade
 - snapshot
 - HA, no SPF

@@ -75,6 +75,6 @@ CaaS (container as a service) stack in Node.js style
 
 (see LICENSE file)
 
-Copyright (c) 2015 Tom Zhou(iwebpp@gmail.com)
+Copyright (c) 2015-2017 Tom Zhou(iwebpp@gmail.com)
 
 
